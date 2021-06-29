@@ -82,16 +82,21 @@ img {
 
   .container.grey {
     background-color: transparent;
-}
+  }
 
-.row{
-  width: 419px;
-  margin: 0 auto;
-}
+  .row{
+    font-family: 'Roboto Slab', serif;
+    width: 419px;
+    margin: 0 auto;
+  }
 
   #lezioni .row,
   #why .row{
     background-color: blanchedalmond;
+  }
+
+  .row hr{
+    margin: 5px 0;
   }
 
   #lezioni .row .left,
@@ -121,9 +126,10 @@ img {
 
   .container.grey {
     background-color: transparent;
-}
+  }
 
   .row{
+    font-family: 'Roboto Slab', serif;
     width: 767px;
     margin: 0 auto;
   }
@@ -131,6 +137,10 @@ img {
   #lezioni .row,
   #why .row{
     background-color: lightcoral;
+  }
+
+  .row hr{
+    margin: 5px 0;
   }
 
   #lezioni .row .left,
@@ -157,6 +167,7 @@ img {
   }
 
   .row{
+    font-family: 'Roboto Slab', serif;
     margin: 0 auto;
     padding-bottom: 20px;
     width: 90%;
