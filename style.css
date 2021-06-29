@@ -110,6 +110,7 @@ img {
   }
 }
 
+
 @media (min-width: 420px) and (max-width: 767px) {  
 
   *{
@@ -145,5 +146,45 @@ img {
     width: 90%;
     margin: 0 auto;
     padding: 20px 0;
+  }
+}
+
+ @media (min-width: 768px) {  /* per gioco */
+  *{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 90%;
+  }
+
+  .row h1{
+    margin: 0 auto;
+    padding: 10px 0 40px 0;
+  }
+
+  .row h3{
+    padding: 10px 0;
+  }
+
+  .row hr{
+    margin: 10px 0;
+  }
+
+  #why .row .first{
+    margin-top: 0;
+  }
+
+  #why .row img {
+    margin-bottom: 20px;
+  }
+  
+  #why .row .second, 
+  #why .row .third {
+    margin-top: 40px;
   }
 }
