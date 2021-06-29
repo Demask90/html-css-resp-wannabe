@@ -109,3 +109,41 @@ img {
     padding: 20px 0;
   }
 }
+
+@media (min-width: 420px) and (max-width: 767px) {  
+
+  *{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container.grey {
+    background-color: transparent;
+}
+
+  .row{
+    width: 767px;
+    margin: 0 auto;
+  }
+
+  #lezioni .row,
+  #why .row{
+    background-color: lightcoral;
+  }
+
+  #lezioni .row .left,
+  #lezioni .row .right,
+  .row h1,
+  #steps .row .left,
+  #steps .row .central,
+  #steps .row .right,
+  #why .row .first,
+  #why .row .second,
+  #why .row .third{
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+}
